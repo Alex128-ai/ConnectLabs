@@ -1,0 +1,27 @@
+tech-connect/
+├── client/                     # Frontend React
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/             # Images, icônes, etc.
+│   │   ├── components/         # Composants réutilisables
+│   │   ├── pages/              # Pages principales
+│   │   ├── context/            # Context API pour la gestion d'état
+│   │   ├── utils/              # Fonctions utilitaires
+│   │   ├── services/           # Services API
+│   │   ├── App.js              # Composant principal
+│   │   └── index.js            # Point d'entrée
+│   ├── package.json
+│   └── README.md
+│
+├── server/                     # Backend Node.js/Express
+│   ├── config/                 # Configuration (DB, auth, etc.)
+│   ├── controllers/            # Contrôleurs pour les routes
+│   ├── models/                 # Modèles Mongoose
+│   ├── routes/                 # Routes API
+│   ├── middleware/             # Middleware personnalisé
+│   ├── utils/                  # Fonctions utilitaires
+│   ├── index.js                # Point d'entrée
+│   ├── package.json
+│   └── README.md
+│
+└── README.md                   # Documentation principale
