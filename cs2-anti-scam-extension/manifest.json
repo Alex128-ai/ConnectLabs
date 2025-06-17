@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CS2 Anti-Scam Skin Detector",
+  "version": "1.0",
+  "description": "Detects suspicious links on web pages to prevent CS2 skin scams.",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "CS2 Anti-Scam",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
